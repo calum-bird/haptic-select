@@ -11,6 +11,7 @@
 		6FC92ACF2A884C3D0013164C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC92ACE2A884C3D0013164C /* ContentView.swift */; };
 		6FC92AD12A884C3E0013164C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC92AD02A884C3E0013164C /* Assets.xcassets */; };
 		6FC92AD52A884C3E0013164C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC92AD42A884C3E0013164C /* Preview Assets.xcassets */; };
+		6FC92ADC2A8855480013164C /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC92ADB2A8855480013164C /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		6FC92AD02A884C3E0013164C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FC92AD22A884C3E0013164C /* Haptic_Select.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Haptic_Select.entitlements; sourceTree = "<group>"; };
 		6FC92AD42A884C3E0013164C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FC92ADB2A8855480013164C /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				6FC92AD02A884C3E0013164C /* Assets.xcassets */,
 				6FC92AD22A884C3E0013164C /* Haptic_Select.entitlements */,
 				6FC92AD32A884C3E0013164C /* Preview Content */,
+				6FC92ADB2A8855480013164C /* HapticManager.swift */,
 			);
 			path = "Haptic-Select";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FC92ACF2A884C3D0013164C /* ContentView.swift in Sources */,
+				6FC92ADC2A8855480013164C /* HapticManager.swift in Sources */,
 				6FC92ACD2A884C3D0013164C /* Haptic_SelectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
